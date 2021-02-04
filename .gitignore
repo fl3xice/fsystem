@@ -1,0 +1,6 @@
+# IntelIJ Idea
+.idea
+
+# Composer
+vendor
+composer.phar

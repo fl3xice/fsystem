@@ -1,0 +1,15 @@
+RedirectMatch 403 ^/vendor/.*$
+RedirectMatch 403 ^/src/.*$
+RedirectMatch 403 ^/composer.json$
+RedirectMatch 403 ^/composer.lock$
+RedirectMatch 403 ^/composer.phar$
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+DirectoryIndex app.php
+
+RewriteRule ^(.+)$ app.php?route=$1 [QSA,L]

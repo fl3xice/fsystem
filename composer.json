@@ -1,0 +1,15 @@
+{
+  "name": "fl3xice/fsystem",
+  "description": "Personal System for built applications on php",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FlexICE",
+      "email": "flexice@protonmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "5.3.*"
+  }
+}

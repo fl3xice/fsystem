@@ -3,6 +3,7 @@ RedirectMatch 403 ^/src/.*$
 RedirectMatch 403 ^/composer.json$
 RedirectMatch 403 ^/composer.lock$
 RedirectMatch 403 ^/composer.phar$
+RedirectMatch 404 ^/config.php$
 
 RewriteEngine On
 

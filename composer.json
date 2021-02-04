@@ -12,6 +12,7 @@
   "require": {
     "vlucas/phpdotenv": "5.3.*",
     "league/flysystem": "1.*",
-    "catfan/medoo": "1.7.*"
+    "catfan/medoo": "1.7.*",
+    "ext-json": "*"
   }
 }

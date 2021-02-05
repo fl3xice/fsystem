@@ -13,6 +13,14 @@
     "vlucas/phpdotenv": "5.3.*",
     "league/flysystem": "1.*",
     "catfan/medoo": "1.7.*",
-    "ext-json": "*"
+    "ext-json": "*",
+    "bramus/router": "1.5",
+    "jenssegers/blade": "v1.4.0",
+    "josantonius/session": "1.1.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "fi\\": "src"
+    }
   }
 }

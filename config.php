@@ -20,6 +20,10 @@ return [
         'host' => $_ENV['DATABASE_HOST'],
         'user' => $_ENV['DATABASE_USER'],
         'password' => $_ENV['DATABASE_PASSWORD']
+    ],
+
+    'session' => [
+        'prefix' => $_ENV['SESSION_PREFIX']
     ]
 ];
 
